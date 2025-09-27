@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=3 uid="uid://dhh78k34kbkmc"]
+[gd_scene load_steps=42 format=3 uid="uid://dhh78k34kbkmc"]
 
 [ext_resource type="PackedScene" uid="uid://bo4opnevbgyhh" path="res://player.tscn" id="1_80nbo"]
 [ext_resource type="Texture2D" uid="uid://dwyqk807mggha" path="res://Assets/sprites/world_tileset.png" id="2_e2o6t"]
@@ -8,6 +8,9 @@
 [ext_resource type="PackedScene" uid="uid://bd2oyp6gmiguk" path="res://kill_zone.tscn" id="6_ryrav"]
 [ext_resource type="Texture2D" uid="uid://bn412cecm7b7l" path="res://tileset_volcan_v1/tileset volcan v1/tileset/volcan8.png" id="7_eow3j"]
 [ext_resource type="PackedScene" uid="uid://cinkveu6lpaen" path="res://hell_platoform.tscn" id="8_j5wjh"]
+[ext_resource type="Texture2D" uid="uid://bctw5es5wv3jj" path="res://tileset_volcan_v1/tileset volcan v1/background/full2.png" id="9_mfdv2"]
+[ext_resource type="Texture2D" uid="uid://jilgyq7ed61p" path="res://craftpix-net-724983-ocean-and-clouds-free-pixel-art-backgrounds/Ocean_8/1.png" id="10_iotsf"]
+[ext_resource type="Texture2D" uid="uid://bkrbh5l288ajq" path="res://craftpix-net-724983-ocean-and-clouds-free-pixel-art-backgrounds/Ocean_5/5.png" id="11_lc2xo"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_e2o6t"]
 radius = 7.0
@@ -674,3 +677,24 @@ autoplay = "side"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatableBody2D6"]
 shape = SubResource("RectangleShape2D_boyg6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.49019608)
+show_behind_parent = true
+position = Vector2(459.4999, 168.99998)
+scale = Vector2(6.160156, 1.1562499)
+texture = ExtResource("9_mfdv2")
+
+[node name="1" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.6)
+show_behind_parent = true
+position = Vector2(459.5, -44.999996)
+scale = Vector2(2.7378476, 0.40740737)
+texture = ExtResource("10_iotsf")
+
+[node name="5" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.6156863)
+show_behind_parent = true
+position = Vector2(367, -394)
+scale = Vector2(0.77235246, 0.43402776)
+texture = ExtResource("11_lc2xo")
