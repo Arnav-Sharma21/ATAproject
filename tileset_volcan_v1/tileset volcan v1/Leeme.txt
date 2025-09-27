@@ -1,0 +1,23 @@
+Instrucciones:
+
+1- Este set contiene un Tileset (46 Tiles y 28 Sprites de Entorno), y dos Fondos para
+el Ambiente de Volcan con dos variaciones
+
+2-El Tileset tiene 0 pixeles de Margen
+
+3-Cada Sprite tiene:
+   -Tamaño: 16 pixeles (tanto los Tiles como los Sprites de Entorno)
+   -Separación: 2 pixeles in eje X y en Eje Y
+
+4-El fondo tiene un tamaño de 256 x 256 pixeles. Cada fondo tiene un set de imagenes 
+separadas (una por cada capa del fondo) y dos imagenes completas ( capas combinadas)
+
+5-El contenido de las capas de fondo es:
+  -Color de fondo( 2 variaciones)
+  -Horizonte
+  -Nubes
+  -Montañas cercanas ( 2 variaciones)
+  -Montañas lejanas
+  -Montañas muy lejanas
+
+  
