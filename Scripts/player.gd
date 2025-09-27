@@ -3,7 +3,7 @@ extends CharacterBody2D
 const SPEED = 150.0
 const JUMP_VELOCITY = -300.0
 
-var gems:int = 3                # Start with 5 gems
+var gems:int = 6                # Start with 5 gems
 var current_spawn:Vector2        # Active respawn point
 var can_double_jump:bool = true  # Allow one double jump per take-off
 var gems_label:Label
