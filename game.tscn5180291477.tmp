@@ -706,4 +706,4 @@ texture = ExtResource("11_lc2xo")
 [node name="Gemslabel" type="Label" parent="UI"]
 offset_right = 40.0
 offset_bottom = 23.0
-text = "Gems : 3"
+text = "Gems : 5"
